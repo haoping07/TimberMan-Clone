@@ -52,9 +52,10 @@ public class GameManager : MonoBehaviour
         return branchPrefabs[0];
     }
 
-    public void cutFirstTrunk()
+    public void cutFirstTrunk(string directionTrunk)
     {
-        Destroy(branches[0]);
+        //Destroy(branches[0]);
+        branches[0].GetComponent<Trunk>().onAnimateDestroy(directionTrunk);
         branches.RemoveAt(0);
 
         int i = 0;
@@ -75,5 +76,16 @@ public class GameManager : MonoBehaviour
     public string getDirectionFirstTrunk()
     {
         return branches[0].tag.ToString();
+    }
+
+    public void reset()
+    {
+        for (int i = 0; i < branches.Count; i++)
+        {
+            Destroy(branches[i]);
+        }
+        branches.RemoveRange(0, branches.Count);
+
+        Start();
     }
 }

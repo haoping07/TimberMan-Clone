@@ -6,6 +6,7 @@ TagManager:
   tags:
   - LEFT
   - RIGHT
+  - AudioManager
   layers:
   - Default
   - TransparentFX
