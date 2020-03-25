@@ -1,7 +1,7 @@
 # TimberMan Clone 
 A TimberMan game clone made by Unity with C#
 
-<img align="center" src="/Pics/preview.png" width="294px" height="374px"></img>
+<img src="/Pics/preview.png" width="294px" height="374px"></img>
 
 </br>
 This project is made based on the tutorial by:</br>
