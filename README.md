@@ -1,4 +1,4 @@
-# TimberMan Clone 
+## TimberMan Clone 
 A TimberMan game clone made by Unity 2018.4.19f1 (64-bit) with C# </br>
 
 <img src="/Pics/preview.png" width="294px" height="374px"></img>
